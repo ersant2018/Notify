@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner{
+    background-image: url(background.png);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    border-top: 10px solid rgb(83, 198, 94);
+    justify-content: space-around;
+}
+
+h1{
+    font-family: 'Pacifico';
+    font-size: 55px;
+    color: white;
+}
+
+.mao{
+    align-self: flex-end;
+}
+p{
+    color: white;
+    font-size: 22px;
+}
+
+.bolinha{
+    background-color: rgb(83, 198, 94);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    top: 280px;
+    left: 310px;
+}
