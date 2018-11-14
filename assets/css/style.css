@@ -1,0 +1,260 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    font-size: 16pt;
+    border-top:  rgb(0, 163, 0) 10px solid;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+}
+
+#ponto{
+    color: rgb(0, 163, 0);
+}
+
+.banner{
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+}
+
+.texto{
+    align-self: center;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.textobanner{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 400px;
+}
+
+.textobanner>p{
+    flex-wrap: wrap;
+}
+
+.mao{
+    display: flex;
+    align-self: flex-end;
+}
+
+.icones>ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.icones>ul>a>li{
+    display: flex;
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 50%;
+    padding: 15px;
+    opacity: 0.5;
+}
+
+.icones > ul >a>li:hover{
+    background-color: rgb(0, 163, 0);
+    opacity: 1.0;
+}
+
+.container{
+    display: flex;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.container>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 163, 0);
+    border-radius: 50%;
+    padding: 25px;
+    width: 48px;
+}
+
+.textocinza{
+    font-size: 13pt;
+    color: rgb(194, 194, 194);
+    flex-wrap: wrap;
+    
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.video{
+    background-color: rgb(227, 227, 227);
+    display: flex;
+    padding: 60px 100px;
+    text-align: justify;
+    /*justify-content: space-around;*/
+   /* justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;*/
+}
+
+.video>div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.video>div>p{
+    flex-wrap: wrap;
+    margin: 0px 0px 20px 0px;
+    padding: 10px;
+}
+
+.video>div>form{
+    padding: 20px;
+    display: flex;
+    align-self: flex-start;
+}
+
+form>div:nth-child(1){
+    width: 250px;
+}
+
+.textocinza-2{
+    color: rgb(132, 132, 132);
+    font-size: 13pt;
+}
+
+.caixa-texto{
+    padding: 12px 20px; 
+    border-bottom-left-radius:10px; 
+    border-top-left-radius:10px;
+    border-style: none;
+    width: 100%;
+}
+
+.btn{
+    padding: 9px 30px;
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    border-style: none;
+    background-color: rgb(0, 163, 0);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 14pt;
+}
+
+.video>div>form{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.container-b{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+}
+
+.frase{
+    font-style: italic;
+    color: rgb(132, 132, 132);
+    font-size: 13pt;
+}
+
+.nome{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.texto-1{
+    padding: 40px 250px;
+}
+
+.fotos ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.texto-2 h2{
+    font-size: 18pt;
+}
+
+.texto-2 p{
+    font-size: 11pt;
+    color: rgb(133, 133, 133);
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.icons ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.icons li{
+    background-color: rgb(132, 132, 132);
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 10px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+}
+
+.icons li:hover{
+    background-color:  rgb(0, 163, 0);
+    opacity: 1;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(227, 227, 227);
+    padding: 20px 0px;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+footer li{
+    padding-left: 20px;
+    color: rgb(132, 132, 132);
+    font-size: 10pt;
+}
+
+a{
+    text-decoration: none;
+     color: #696969;
+ }
